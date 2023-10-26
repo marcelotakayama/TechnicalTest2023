@@ -10,7 +10,7 @@
     {
         public static List<Vehicle> VEHICLES = new List<Vehicle>();
         public static List<Fuel> FUEL_PRICES = new List<Fuel>();
-        public static string[] VEHICLE_TYPES = new string[] { "Carro", "Moto", "Caminhão" };
+        public static string[] VEHICLE_TYPES = new string[] { "Carro", "Moto", "Caminhao", "Aviao" };
         public static string[] FUEL_TYPES = new string[] { "Gasolina", "Álcool", "Diesel" };
     }
 }

@@ -41,6 +41,8 @@
                     return new Motorcycle();
                 case "caminhao":
                     return new Truck();
+                case "aviao":
+                    return new Airplane();
                 default:
                     return new Car();
             }
