@@ -1,6 +1,9 @@
 # TechnicalTest2023
 NEXER-BRA Technical Test 2023
 
+Documentação com prints dos resultados:
+https://docs.google.com/document/d/12tDIKepd_jycINtrjFjQcM5DFrAVbEIJXLhmBn_Gwas/edit?usp=sharing
+
 ## Processo Seletivo Nexer - Marcelo Takayama
 
 Exercício C#
