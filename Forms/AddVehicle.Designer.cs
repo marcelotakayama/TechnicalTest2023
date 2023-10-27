@@ -41,6 +41,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.txtKMs = new System.Windows.Forms.TextBox();
             this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.cmbFuel = new System.Windows.Forms.ComboBox();
             this.txtWeight = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
@@ -52,6 +54,16 @@
             this.label1.Size = new System.Drawing.Size(28, 13);
             this.label1.TabIndex = 1;
             this.label1.Text = "Tipo";
+
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(27, 112);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(28, 13);
+            this.label6.TabIndex = 14;
+            this.label6.Text = "Combustivel";
             // 
             // txtName
             // 
@@ -84,6 +96,15 @@
             this.txtModel.Name = "txtModel";
             this.txtModel.Size = new System.Drawing.Size(100, 20);
             this.txtModel.TabIndex = 1;
+            // 
+            // cmbFuel
+            // 
+            this.cmbFuel.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbFuel.FormattingEnabled = true;
+            this.cmbFuel.Location = new System.Drawing.Point(92, 110);
+            this.cmbFuel.Name = "cmbFuel";
+            this.cmbFuel.Size = new System.Drawing.Size(121, 21);
+            this.cmbFuel.TabIndex = 6;
             // 
             // cmbType
             // 
@@ -170,6 +191,8 @@
             this.Controls.Add(this.txtName);
             this.Controls.Add(this.txtModelName);
             this.Controls.Add(this.label1);
+            this.Controls.Add(this.cmbFuel);
+            this.Controls.Add(this.label6);
             this.Name = "AddVehicle";
             this.Text = "AddVehicle";
             this.Load += new System.EventHandler(this.AddVehicle_Load);
@@ -193,5 +216,8 @@
         private System.Windows.Forms.TextBox txtKMs;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox txtWeight;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox cmbFuel;
+
     }
 }

@@ -10,6 +10,7 @@
     {
         public string ModelName { get; set; }
         public string Brand { get; set; }
+        public string Fuel { get; set; }
         public int Wheels { get; set; }
         public double WeightSupported { get; set; }
         public double Autonomy { get; set; }
@@ -18,7 +19,7 @@
 
         public virtual void showInfo()
         {
-            Console.WriteLine($"Marca: {Brand}, Modelo: {ModelName}, Rodas: {Wheels}");
+            Console.WriteLine($"Marca: {Brand}, Modelo: {ModelName}, Rodas: {Wheels}, Combustivel: {Fuel}");
         }
 
         public Vehicle()
